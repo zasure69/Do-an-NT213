@@ -4,7 +4,7 @@ import os
 
 class auto:
     def __init__(self):
-        self.baseurl = "http://127.0.0.1:20208"
+        self.baseurl = "http://127.0.0.1:80"
         self.phone = "13791128359"
         self.password = "a1@123"
     

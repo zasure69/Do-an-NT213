@@ -1,0 +1,8 @@
+/config/install.lock
+/public/uploads/*
+!/public/uploads/index.html
+/runtime/*
+!/runtime/index.html
+/.env
+/public/upgrade/*
+!/public/upgrade/version.json
