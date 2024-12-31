@@ -4,7 +4,7 @@ import os
 
 class auto:
     def __init__(self):
-        self.baseurl = "http://127.0.0.1:80"
+        self.baseurl = "http://127.0.0.1:20208"
         self.phone = "13791128359"
         self.password = "a1@123"
     
@@ -16,6 +16,7 @@ class auto:
             "client": 6
         }
         r = requests.post(url, json=user, verify=False)
+        print(str(r))
         response = json.loads(r.text)
         if response["code"] == 1:
             return True
